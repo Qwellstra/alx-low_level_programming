@@ -5,3 +5,4 @@ Task 3-A script to compile a C file and create an executable file
 Task 7-A script that generates the assembly code of a C code
 Printing a statement-Task 5
 Task 5- Printing a statement
+Task 6- A script that prints the size of various types
