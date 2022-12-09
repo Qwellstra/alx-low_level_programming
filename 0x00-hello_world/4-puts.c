@@ -1,11 +1,12 @@
 /**
  * puts_programming-Printing a statement with puts
- * return-Returns the function
+ * Return-Returns 0
+ * int-This a string of statement
  */
 #include <stdio.h>
-void puts_programming(void)
+int puts_programming(void)
 {
-	puts("Programming is like building a multilingual puzzle\n")
+	puts("Programming is like building a multilingual puzzle\n");
 	getchar();
 	return (0);
 }
