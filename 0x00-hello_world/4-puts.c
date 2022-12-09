@@ -1,12 +1,12 @@
 /**
- * puts-Printing a statement with puts
+ * main - puts "Programming is like building a multilingual puzzle"
  * Return: 1 if an integer. 0 otherwise
  * int-This a string of statement
  */
 #include <stdio.h>
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle");
+	puts("Programming is like building a multilingual puzzle\n");
 	getchar();
 	return (0);
 }
