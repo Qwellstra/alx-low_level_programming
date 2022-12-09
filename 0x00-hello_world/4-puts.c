@@ -1,10 +1,10 @@
 /**
- * puts_programming-Printing a statement with puts
+ * puts-Printing a statement with puts
  * Return-Returns 0
  * int-This a string of statement
  */
 #include <stdio.h>
-int puts_programming(void)
+int main(void)
 {
 	puts("Programming is like building a multilingual puzzle\n");
 	getchar();
