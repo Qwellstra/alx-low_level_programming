@@ -17,7 +17,7 @@ void times_table(void)
 			{
 				_putchar(k + '0');
 			}
-			if (k < 9 && j != 9)
+			if (k < 9 && j != 10)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -27,8 +27,8 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar((k / 9) + '0');
-				_putchar((k % 9) + '0');
+				_putchar((k / 10) + '0');
+				_putchar((k % 10) + '0');
 			}
 		}
 		_putchar('\n');
