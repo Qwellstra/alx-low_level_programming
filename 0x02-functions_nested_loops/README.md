@@ -11,3 +11,4 @@ Task 7- A function that prints the last digit of a number
  Task 8- A function that prints the minutes of Jack Bauer
 Task 9-Afunction that prints the times table from o to 9
 Task 10-A function that adds two integers
+Task 11-A function to print all natural numbers from n to 98
