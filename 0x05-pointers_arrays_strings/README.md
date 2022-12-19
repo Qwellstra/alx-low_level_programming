@@ -8,3 +8,4 @@ Task 5- A functoin that reverses a string
 Task 6-A function that prints every other character of a string and anew line
 Task 7-A string that prints half a string and a new line
 Task 8-A function that prints n elemnts in an array
+a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
