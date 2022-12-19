@@ -10,3 +10,4 @@ Task 7-A string that prints half a string and a new line
 Task 8-A function that prints n elemnts in an array
 a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
 Task 10- A function that converts a str into an int
+Task 11-A program that generates random valid passwords for the program crackme
