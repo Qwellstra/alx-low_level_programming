@@ -6,3 +6,4 @@ Task 3-A function that compars two strings
 Task 4-A fuunction that reverses an array of integers
 Task 5-A function that changes all letters from lowercase to uppercase
 Task 6-A fucntion that capitalizes all letters of a string
+Task 7-A function that encodes a string to 1337
