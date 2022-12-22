@@ -28,9 +28,9 @@ char *cap_string(char *str)
 			str[ell - 1] == ')' ||
 			str[ell - 1] == '{' ||
 			str[ell - 1] == '}' ||
-			index == 0)
+			ell == 0)
 			str[ell] -= 32;
-		index++;
+		ell++;
 	}
 	return (str);
 }
