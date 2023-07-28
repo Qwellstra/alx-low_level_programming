@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isdigit - check if numbers renge from 0-9
- * @c: charto check
+ * _isdigit - check if numbers range from 0-9
+ * @c: char to check
  * Return: 1 or 0
  */
 
