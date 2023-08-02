@@ -5,7 +5,7 @@
  * @accept: second input
  * Return: 0 for success
  */
-unsigned int_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int n = 0;
 	int r;
