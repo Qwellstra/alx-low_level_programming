@@ -6,9 +6,9 @@
  *
  * Return: 0 for success
  */
-char *_strstr (char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
-	for (; *haystack !='\0'; haystack++)
+	for (; *haystack != '\0'; haystack++)
 	{
 		char *i = haystack;
 		char *p = needle;
@@ -21,7 +21,7 @@ char *_strstr (char *haystack, char *needle)
 
 		if (*p == '\0')
 		{
-			return(haystack);
+			return (haystack);
 		}
 	}
 	return (0);
