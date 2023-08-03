@@ -30,7 +30,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * check_pal - A function that checks recursively whether a number is a palindrome or not
+ * check_pal - Recursively checks whether a number is a palindrome or not
  * @s: string to check
  * @i: iterator
  * @len: length of the string
@@ -39,7 +39,7 @@ int _strlen_recursion(char *s)
  */
 int check_pal(char *s, int i, int len)
 {
-	if (* (s + i) != *(s + len - 1))
+	if (*(s + i) != *(s + len - 1))
 		return (0);
 	if (i >= len)
 		return (1);
