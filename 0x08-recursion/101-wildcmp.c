@@ -4,8 +4,7 @@
  * wildcmp - A function that compares strings
  * @s1: A pointer to a string params
  * @s2: A pointer to a string params
- * 
- * Return - 0
+ * Return - 1 if strins are identical, otherwise return 0
  */
 int wildcmp(char *s1, char *s2)
 {
@@ -20,7 +19,7 @@ int wildcmp(char *s1, char *s2)
 
 	if (*s2 == '*')
 	{
-		return(wildcmp(s1 + 1, s2) || wildcmp(s1, s2 + 1));
+		return (wildcmp(s1 + 1, s2) || wildcmp(s1, s2 + 1));
 	}
 	else if (*s1 == *s2)
 	{
