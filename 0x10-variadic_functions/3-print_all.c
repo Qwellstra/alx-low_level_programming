@@ -5,6 +5,8 @@
 /**
  * print_all - A funct that prints anything
  * @format: list of types passed to the funct
+ *
+ * Return: 0 for succes
  */
 void print_all(const char * const format, ...)
 {
