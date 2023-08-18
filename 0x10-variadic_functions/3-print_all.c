@@ -1,10 +1,15 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
+
+/**
+ * print_all - A funct that prints anything
+ * @format: list of types passed to the funct
+ */
 void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char *str, *step = "";
+	char *str, *sep = "";
 
 	va_list list;
 
@@ -35,7 +40,7 @@ void print_all(const char * const format, ...)
 					i++;
 					continue;
 			}
-			sep = ",";
+			sep = ", ";
 			i++;
 		}
 	}
