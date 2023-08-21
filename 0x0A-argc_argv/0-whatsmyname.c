@@ -1,5 +1,5 @@
 #include <stdio.h>
-#inlcude "main.h"
+#include "main.h"
 /**
  * main - a function to print the name of the program
  * @argc: The number of arguments available
