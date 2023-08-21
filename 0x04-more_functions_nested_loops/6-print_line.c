@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
- * print_line - a function that draws a starightline
- * @n: the no. of times the char _ to be printed
+ * print_line -  a func to draw a straightline 
+ * @n: number of times the line to be printed
  */
 void print_line(int n)
 {
@@ -16,7 +15,7 @@ void print_line(int n)
 
 		for (i = 1; i <= n; i++)
 		{
-			_putchar('_')
+			_putchar('_');
 		}
 		_putchar('\n');
 	}
