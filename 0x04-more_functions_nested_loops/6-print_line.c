@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_line -  a func to draw a straightline 
+ * print_line -  a func to draw a straightline
  * @n: number of times the line to be printed
  */
 void print_line(int n)
