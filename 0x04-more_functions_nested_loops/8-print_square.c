@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square - a funct to print a square followedby a new line
+ * print_square - a function to print a square followedby a new line
  * @size - size of the square
  */
 void print_square(int size)
